@@ -62,7 +62,6 @@ function App() {
         corSecundaria={time.corSecundaria} 
         colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
       />)}   
-
     </div>
   );
 }
